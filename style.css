@@ -16,14 +16,14 @@ body {
 }
 
 img {
-    width: 450px;
+    width: 300px;
 
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 800;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     
 }
 
@@ -77,21 +77,41 @@ button:active {
 
 @media (max-width: 750px) {
     
-    h1 {
-        margin-left: 10px;
-        margin-top: 30px;
-    }
-
-    h3 {
-        font-size: 35px;
-    }
-
-    input {
+    body {
         display: flex;
         align-items: center;
-
+        justify-content: center;
+        flex-direction: column;
+       
     }
 
+  img {
+    width: 412px;
+  }
+
+    h1 {
+       font-size: 40px;
+        
+    }
+
+
+
+.caixa-input {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+   input {
+    margin-left: 120px;
+    
+   }
+
+
+button {
+    width: 300px;
+    height: 65px;
+}
     
 
 
